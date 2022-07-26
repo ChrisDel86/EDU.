@@ -1,0 +1,64 @@
+    
+     choice= input ("1 to Start and 2 to stop")
+
+
+    if choice in ("1","2"):
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+    if choice == '1':
+ 
+ 
+#to start two funktions at ones 
+    if time_start == 'x':
+       Thread(target = time_start).start()
+    Thread(target = Stop).start()
+
+
+     # if key 'n' is pressed 
+    if choice == 'n':
+            print('You Pressed A Key!')
+            break  # finishing the loop
+
+if __name__ == "__main__":
+    p1 = Process(target = func1)
+    p2 = Process(target = func2)
+
+    
+start=start
+
+def stop_choice():
+    if choice == 'x':
+        time_start= False
+time_start = float(input("Enter letter"))
+
+if keyboard.is_pressed("x"):
+
+a = 0
+while True:
+    a+=1
+    print('x')
+    time.sleep(1)
+    if keyboard.is_pressed("x"):
+        break
+
+        def stop():
+        if choice in ('x'):
+            time_star = False
+        time.sleep(1)
+
+        elif choice == 'x':
+        time_start = False
+
+
+
+        def Stop():
+    while True:
+    #take input from user 
+        if keyboard.is_pressed("x", timer = False):
+            break
+
+threading.Thread(target=main.timer).start()
+
+
+else:
+           print("Invalid Input") 
